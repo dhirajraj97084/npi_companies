@@ -1,14 +1,16 @@
 import React from 'react'
-import NavbarCompo from '../../component/navbar/NavbarCompo'
 import AutoScrollImage from '../../component/heropage/hero_Carousal/AutoScrollImage'
+import Layout from '../../component/layout/Layout'
+import HeroProducts from '../../component/heropage/hero_Products/HeroProducts'
 
 
 function Home() {
   return (
-    <div>
-     <NavbarCompo/>
+    <Layout>
+     
      <AutoScrollImage/>
-    </div>
+     <HeroProducts/>
+    </Layout>
   )
 }
 

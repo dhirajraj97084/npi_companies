@@ -37,27 +37,8 @@ const navListMenuItems = [
   {
     title: "Pay Per Click",
     src: "/payperclick",
-  },
-  {
-    title: "Google My Bussiness Listing",
-    src: "/googlemybussiness",
-  },
-  {
-    title: "Content Writing",
-    src: "/contentwriting",
-  },
-  {
-    title: "Influencer Marketing",
-    src: "/influencermarketing",
-  },
-  {
-    title: "WhatsApp Marketing",
-    src: "/whatsappmarketing",
-  },
-  {
-    title: "Graphic Design",
-    src: "/graphicdesign",
-  },
+  }, 
+ 
 ];
 
 function NavListMenu() {
@@ -110,7 +91,7 @@ function NavListMenu() {
             </ListItem>
           </Typography>
         </MenuHandler>
-        <MenuList className="hidden max-w-screen-xl hover:text-deep-purple-500  rounded-xl lg:block font-thin bg-gray-100 text-black/85">
+        <MenuList className="hidden max-w-screen-xl hover:text-deep-purple-500  rounded-xl lg:block font-thin bg-gray-100 text-black/85 ">
           <ul className="grid grid-cols-1 gap-y-2 outline-none outline-0   ">
             {renderItems}
           </ul>
@@ -153,30 +134,9 @@ function NavList() {
           </ListItem>
           <hr className="lg:hidden" />
         </Link>
-      </Typography>
-      <Typography as="a" href="#" color="blue-gray" className="font-medium">
-        <Link to={"/blog"}>
-          <ListItem className="flex hover:text-deep-purple-500  items-center gap-2 py-2 pr-4 hover:underline decoration-deep-purple-500  underline-offset-8">
-            Blog
-          </ListItem>
-          <hr className="lg:hidden" />
-        </Link>
-      </Typography>
-      <Typography as="a" href="#" color="blue-gray" className="font-medium">
-        <Link to={"/career"}>
-          <ListItem className="flex items-center hover:text-deep-purple-500  gap-2 py-2 pr-4 hover:underline decoration-deep-purple-500  underline-offset-8">
-            Career
-          </ListItem>
-          <hr className="lg:hidden" />
-        </Link>
-      </Typography>
-      <div className="">
-        <Link to={"/career"}>
-          <button className="px-6 py-2 bg-purple-500 rounded-sm hidden lg:block text-white hover:bg-brown-800">
-            CALL NOW
-          </button>
-        </Link>
-      </div>
+      </Typography>    
+     
+      
     </List>
   );
 }
@@ -205,7 +165,7 @@ export default function NavbarCompo() {
 
   return (
     <Navbar
-      className={` rounded-none max-w-full container py-2 top-0 sticky z-20 border-none 
+      className={` rounded-none max-w-full container py-2 shadow-none top-0 sticky z-20 border-none 
     ${color ? "navbarComp" : "navbarScrolled"}`}
     >
       <div className="flex items-center justify-around gap-24 text-blue-gray-900">
