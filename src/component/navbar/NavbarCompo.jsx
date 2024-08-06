@@ -23,21 +23,29 @@ import { PhoneIcon } from "@heroicons/react/24/solid";
 
 const navListMenuItems = [
   {
-    title: "Website design company",
+    title: "Metal Pretreatment",
     src: "/websitedesign",
   },
   {
-    title: "Social media marketing",
+    title: "Paint Detackification",
     src: "/socialmedia",
   },
   {
-    title: "Search Engine Optimisation",
+    title: "Paint Stripping",
     src: "/seo",
   },
   {
-    title: "Pay Per Click",
+    title: "Rockwell Thermal Fluids",
     src: "/payperclick",
   }, 
+  {
+    title: "Wastewater Treatment",
+    src: "/payperclick",
+  },
+  {
+    title: "Water Treatment & Boiler",
+    src: "/payperclick",
+  },
  
 ];
 
@@ -75,7 +83,7 @@ function NavListMenu() {
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
-              Services
+              Products
               <ChevronDownIcon
                 strokeWidth={2.5}
                 className={`hidden h-3 w-3 transition-transform lg:block ${
@@ -165,7 +173,7 @@ export default function NavbarCompo() {
 
   return (
     <Navbar
-      className={` rounded-none max-w-full container py-2 shadow-none top-0 sticky z-20 border-none 
+      className={` rounded-none max-w-full container py-2  top-0 sticky z-20 border-none 
     ${color ? "navbarComp" : "navbarScrolled"}`}
     >
       <div className="flex items-center justify-around gap-24 text-blue-gray-900">
