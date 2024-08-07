@@ -11,7 +11,7 @@ function HeroReview() {
                 <div className="heading py-8">
                     <h1 className=' md:text-3xl text-xl text-center  font-bold'>Why N.P Industries</h1>
                 </div>
-                <div className="REVIEW grid grid-cols-2 md:grid-cols-4 md:pt-12 pb-8 md:gap-12 gap-3 text-white text-center px-1">
+                <div className="REVIEW grid grid-cols-2 md:grid-cols-4 md:pt-4 pb-8 md:gap-12 gap-3 text-white text-center px-1">
                     <div className="review_one bg-light-blue-800">
                         <h1 className='py-4 flex justify-center text-2xl'><TbWorld /></h1>
                         <h1 className='text-xl font-semibold'>SINCE 2023</h1>
