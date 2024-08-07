@@ -8,55 +8,56 @@ import {
     Button,
 } from "@material-tailwind/react";
 import { Link } from 'react-router-dom';
+import { GiWireframeGlobe } from 'react-icons/gi';
 const items = [
     {
-        img: "https://www.vanchem.com/wp-content/uploads/2017/07/metal-pretreatment-thumbnail.png",
-        name: "Metal Pretreatment",
+        img: "https://jmindustry.in/wp-content/uploads/2022/09/images-2.jpg",
+        name: "Industrial Chemical",
         // price: "  $180.00",
-        desc: " Prior to painting metal and plastic, specific pre-treatment chemicals must be used to clean,.",
+        desc: "Zinc, Manganese, Liquid Iron Phosphating Chemicals.",
         button: "Learn More...",
         src: "/metalpretreatment"
     },
     {
-        img: "https://www.vanchem.com/wp-content/uploads/2017/07/paint-detack-thumbnail.png",
-        name: "Paint Detackification",
+        img: "https://jmindustry.in/wp-content/uploads/2022/09/powder-coating-special-camera-worker-wearing-protective-wear-performing-metal-details-industrial-49678620-300x200.jpg",
+        name: "OTHER Chemicals",
         // price: "  $95.00",
-        desc: "Paint detackification is a specific process in which tacky paint overspray is rendered non-tacky by chemical reaction.",
+        desc: "Paint Stripper Chemical Metal Rust Cleaning Chemical E.T.P. PLANT",
         button: "Learn More...",
         src: "/paintdetackification"
     },
     {
-        img: "https://www.vanchem.com/wp-content/uploads/2017/07/water-treatment-thumbnail.png",
-        name: " Water Treatment & Boiler ",
+        img: "https://jmindustry.in/wp-content/uploads/2022/09/pf0913pci-showkeyland-1-300x250.jpg",
+        name: "Coating Guns ",
         // price: "  $95.00",
-        desc: " Vanchem Performance Chemicals supplies a line of water treatment chemicals.",
+        desc: "Powder Coating Gun Gema Powder Coating Equipment's Spare Parts",
         button: "Learn More...",
         src: "/waterTreatmentBoiler"
     },
     {
-        img: "https://www.vanchem.com/wp-content/uploads/2017/07/waste-water-treatment-thumbna.png",
-        name: "Wastewater Treatment ",
+        img: "https://jmindustry.in/wp-content/uploads/2022/09/Convection-Powder-Coating-Plant-300x250.jpg",
+        name: "Coating Booth",
         // price: "  $95.00",
-        desc: "Waste water pretreatment is a process that removes heavy metals and phosphates from water utilized by industry.",
+        desc: "Powder Coating Booth Automatic Powder Coating Booth",
         button: "Learn More...",
         src: "/wastewaterTreatment"
     },
-    {
-        img: "https://www.vanchem.com/wp-content/uploads/2017/07/paint-stripping-thumbnail.png",
-        name: "Paint Stripping",
-        // price: "  $95.00",
-        desc: "Vanchem paint strippers are effective in stripping high solids coatings, powder coatings, and most commercially used organic coatings.",
-        button: "Learn More...",
-        src: "/paintStripping"
-    },
-    {
-        img: "https://www.vanchem.com/wp-content/uploads/2017/07/commodities-thumbnail.png",
-        name: "Rockwell Thermal Fluids",
-        // price: "  $95.00",
-        desc: "Vanchem’s expertise in thermal fluids led to the joint development of proprietary coolants specifically designed for Rockwell / Allen-Bradley",
-        button: "Learn More...",
-        src: "/rockwellThermalFluids"
-    },
+    // {
+    //     img: "https://www.vanchem.com/wp-content/uploads/2017/07/paint-stripping-thumbnail.png",
+    //     name: "Paint Stripping",
+    //     // price: "  $95.00",
+    //     desc: "Vanchem paint strippers are effective in stripping high solids coatings, powder coatings, and most commercially used organic coatings.",
+    //     button: "Learn More...",
+    //     src: "/paintStripping"
+    // },
+    // {
+    //     img: "https://www.vanchem.com/wp-content/uploads/2017/07/commodities-thumbnail.png",
+    //     name: "Rockwell Thermal Fluids",
+    //     // price: "  $95.00",
+    //     desc: "Vanchem’s expertise in thermal fluids led to the joint development of proprietary coolants specifically designed for Rockwell / Allen-Bradley",
+    //     button: "Learn More...",
+    //     src: "/rockwellThermalFluids"
+    // },
 ]
 
 
@@ -65,11 +66,12 @@ function HeroProducts() {
         <div>
             <div className="main bg-gray-200">
                 <div className="heading py-8">
-                    <h1 className=' md:text-3xl text-xl text-center  font-bold'>Best Quality <span className='text-cyan-200 md:text-4xl text-2xl'>Chemical Products</span></h1>
+                    <h1 className=' md:text-3xl text-xl text-center  font-bold'>Categories</h1>
+                    <p className='text-center flex justify-center items-center'> <p>..........................</p> <p><GiWireframeGlobe className='text-2xl' /></p>  <p>..........................</p> </p>
                 </div>
                 <div className="products pb-12 container mx-auto px-3  ">
                     <div className="inner_cart  ">
-                        <div className="inner_box bg grid grid-cols-1 md:grid-cols-3 gap-8 ">
+                        <div className="inner_box bg grid grid-cols-1 md:grid-cols-4 gap-8 ">
                             {items.map((item,index)=>(
                                 <div key={index} className="box bg-white rounded-md shadow-md p-4 hover:bg-gray-200  ">
                                    <Link to={item.src}>
