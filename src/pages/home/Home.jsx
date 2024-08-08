@@ -5,6 +5,7 @@ import HeroProducts from '../../component/heropage/hero_Products/HeroProducts'
 import OurService from '../../component/heropage/hero_ourServices/OurService'
 import HeroReview from '../../component/heropage/hero_review/HeroReview'
 import AutoPlayCarousal from '../../component/heropage/hero_autoPlayCarousal/AutoPlayCarousal'
+import Testinomial from '../../component/heropage/testinomial/Testinomial'
 
 
 function Home() {
@@ -15,8 +16,8 @@ function Home() {
      <HeroReview/>
      <HeroProducts/>
      <AutoPlayCarousal/>
-     <OurService/>
-    
+     {/* <OurService/> */}
+     <Testinomial/>    
     </Layout>
   )
 }
