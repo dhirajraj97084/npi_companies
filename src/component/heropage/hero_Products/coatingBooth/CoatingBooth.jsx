@@ -1,6 +1,9 @@
+
+
 import React from 'react'
 import Layout from '../../../layout/Layout'
 import { Link } from 'react-router-dom';
+import { FaArrowRightLong } from "react-icons/fa6";
 const blogCard = [
     {
       img: "https://jmindustry.in/wp-content/uploads/2022/09/Best-Technology-Plating-Line-Tanks-300x300.jpg",
@@ -16,13 +19,7 @@ const blogCard = [
       src: "/seo",
     //   date: "March 30, 2024 ",
     },
-    {
-      img: "https://jmindustry.in/wp-content/uploads/2022/09/download-5.jpg",
-      tital: "Aluminum Cleaner Chemical",
-      p1: "ndustrial Chemical",
-      src: "/digitalmarketing",
-    //   date: "March 24, 2024",
-    },
+    
     {
       img: "https://jmindustry.in/wp-content/uploads/2022/09/download-5.jpg",
       tital: "Cold Phosphating Chemicals",
@@ -31,60 +28,65 @@ const blogCard = [
       date: "March 16, 2024 ",
     },
     {
-      img: "https://Digiswarm.com/wp-content/uploads/2024/03/Google-my-business-Marketing-Expert.png",
-      tital: "Best Google My Business Listing Services In Dehradun",
-      p1: "In busy Dehradun, Uttarakhand, businesses are always trying to shine online. People rely more and",
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital: "DEGCHEME 101",
+      p1: "Degreasing",
+      src: "/digitalmarketing",
+    //   date: "March 24, 2024",
+    },
+    {
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital:"DEGCHEME 105",
+      p1: "Degreasing",
       src: "/google",
       date: "March 9, 2024 ",
     },
     {
-      img: "https://Digiswarm.com/wp-content/uploads/2024/02/certificate.png",
-      tital:
-        "6 Best Online Advertising Strategy to Reach Your Target Customers  in 2024",
-      p1: "As online advertising continues its evolution, implementing these strategies in 2024 can significantly enhance yo",
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital:"DEGCHEME 109",
+      p1: "Degreasing",
       src: "/onlineadvertising",
       date: "March 2, 2024 ",
     },
     {
-      img: "https://Digiswarm.com/wp-content/uploads/2024/02/Graphic-Designing-2.png",
-      tital: "Best Graphic Designing Company In Dehradun – Digiswarm",
-      p1: "Welcome to Digiswarm – a professional and the best graphic designing company in Dehradun. In",
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital:"DEGCHEME 203",
+      p1: "Degreasing",
       src: "/graphicdesigning",
       date: "February 24, 2024  ",
     },
     {
-      img: "https://Digiswarm.com/wp-content/uploads/2024/02/BEST-ECommerce-Marketing-Agency.png",
-      tital: "Best ECommerce Website Designing Company In Dehradun",
-      p1: "In today’s fast-changing online world having a strong presence on the internet is important for",
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital:"DEGCHEME 60",
+      p1: "Degreasing",
       src: "/ecommercewebsite",
       date: "February 17, 2024 ",
     },
     {
-      img: "https://Digiswarm.com/wp-content/uploads/2024/01/Influencer-Marketing-2.webp",
-      tital: "7 Digital Marketing Tips to Boost Your Business in 2024",
-      p1: "Looking for the best way to boost your business online? Then, you should implement these",
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital:"DEGCHEME 70",
+      p1: "Degreasing",
       src: "/sevendigital",
       date: "January 20, 2024 ",
     },
     {
-      img: "https://Digiswarm.com/wp-content/uploads/2023/12/business.png",
-      tital:
-        "In the fast-paced world of online marketing, Instagram stands out as a powerful tool for",
-      p1: "Ready to establish your online presence? Explore these 3 proven strategies to take your Business",
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital:"DEGCHEME 80",
+      p1: "Degreasing",
       src: "/threestrategies",
       date: "January 11, 2024 ",
     },
     {
-      img: "https://Digiswarm.com/wp-content/uploads/2024/01/featured-img.webp",
-      tital: "7 Amazing Benefits Of Instagram Marketing For Businesses",
-      p1: "In the fast-paced world of online marketing, Instagram stands out as a powerful tool for",
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital:"DEGCHEME 90",
+      p1: "Degreasing",
       src: "/instagram",
       date: "January 11, 2024 ",
     },
     {
-      img: "https://Digiswarm.com/wp-content/uploads/2023/12/WHAT-1.png",
-      tital: "What Are Backlinks And How They Are Important In SEO?",
-      p1: "In the world of making websites show up on Google, there is a super important",
+      img: "https://jmindustry.in/wp-content/uploads/2022/10/b8844d24-7641-4b5f-93d6-9cb40b3dfb47-300x300.jpg",
+      tital:"DEGCHEME 907",
+      p1: "Degreasing",
       src: "/instagram",
       date: "December 16, 2023  ",
     },
@@ -96,40 +98,54 @@ function CoatingBooth() {
        <div className="div  w-full ">
         <img
           className="w-full md:h-[35em]  h-[20em]"
-          src="https://jmindustry.in/wp-content/uploads/2022/09/Best-Technology-Plating-Line-Tanks-300x300.jpg"
+          src="https://img.freepik.com/free-photo/laboratory-3d-glassware_23-2151560648.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid"
           alt=""
         />
       </div>
-      <div className=" mx-auto bg-gray-100  ">
+      <div className="div bg-gray-100 ">
+      <div className=" mx-auto container  ">
         <div className="items relative md:bottom-48 bottom-12">
-          <div className="subitems grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="subitems grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
             {blogCard.map((item, index) => (
               <div
                 key={index}
-                className="inner_box m-2 p-2 md:m-4 bg-white shadow-md"
+                className="inner_box m-2 p-2 md:m-4 shadow-md hover:bg-yellow-200 rounded-xl "
               >
-                <img src={item.img} alt="" />
-                <h1 className="text-2xl font-bold text-deep-purple-500  py-2">
+                <img className='w-full rounded-3xl' src={item.img} alt="" />
+                <p className=" text-balance">{item.p1}</p>
+                {/* <h2 className="text-sm font-bold text-black/60">{item.desc}</h2> */}
+                <h1 className="text-xl font-bold text-deep-purple-400 ">
                   {item.tital}
                 </h1>
-                <h2 className="text-xl font-bold text-black/60">{item.desc}</h2>
-                <p className="p-2 text-balance">{item.p1}</p>
+               
+                
                 <Link to={item.src}>
-                  <h1 className=" font-bold pb-2 text-deep-orange-400 decoration-deep-orange-700 underline-offset-8">
+                  <h1 className=" font-bold pt-3 text-deep-orange-400 decoration-deep-orange-700 underline-offset-8">
                     Read More...
                   </h1>
                 </Link>
-                <hr className="py-4 " />
-                <div className="box">
+                {/* <hr className="py-4 " /> */}
+                {/* <div className="box">
                   <h1>{item.date}</h1>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
+          <div className="box flex space-x-4 pt-10">
+        <div className="box1"><Link to={'/metalpretreatment'}><button className='p-4 rounded-md border-2 hover:bg-orange-300 text-black border-black cursor-pointer'>A</button></Link></div>
+        <div className="box2"><Link to={'/paintdetackification'}><button className='p-4 rounded-md border-2 hover:bg-orange-400 text-black border-black cursor-pointer'>B</button></Link></div>
+        <div className="box3"><Link to={'/waterTreatmentBoiler'}><button className='p-4 rounded-md border-2 hover:bg-orange-300 text-black border-black cursor-pointer'>C</button></Link></div>
+        <div className="box3"><Link to={'/wastewaterTreatment'}><button className='p-4 rounded-md border-2 bg-orange-300 text-black border-black cursor-pointer'><FaArrowRightLong className='text-xl' /></button></Link></div>
+      </div>
         </div>
+        
+      </div>
+      
       </div>
     </Layout>
   )
 }
 
 export default CoatingBooth
+
+
