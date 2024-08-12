@@ -24,28 +24,40 @@ import { PhoneIcon } from "@heroicons/react/24/solid";
 
 const navListMenuItems = [
   {
-    title: "Metal Pretreatment",
-    src: "/metalpretreatment",
+    title: "DEGCHEME 101",
+    src: "/degcheme101",
   },
   {
-    title: "Paint Detackification",
-    src: "/paintdetackification",
+    title: "DEGCHEME 105",
+    src: "/degcheme105",
   },
   {
-    title: "Paint Stripping",
-    src: "/paintStripping",
+    title: "DEGCHEME 109",
+    src: "/degcheme109",
   },
   {
-    title: "Rockwell Thermal Fluids",
-    src: "/rockwellThermalFluids",
+    title: "DEGCHEME 203",
+    src: "/degcheme203",
   }, 
   {
-    title: "Wastewater Treatment",
-    src: "/wastewaterTreatment",
+    title: "DEGCHEME 60",
+    src:"/degcheme60",
   },
   {
-    title: "Water Treatment & Boiler",
-    src: "/waterTreatmentBoiler",
+    title: "DEGCHEME 70",
+    src: "/degcheme70",
+  },
+  {
+    title: "DEGCHEME 80",
+    src: "/degcheme80",
+  },
+  {
+    title: "DEGCHEME 90",
+    src: "/degcheme90",
+  },
+  {
+    title: "DEGCHEME 907",
+    src: "/degcheme907",
   },
  
 ];
@@ -84,7 +96,7 @@ function NavListMenu() {
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
-              Products
+             DEGCHEME 
               <ChevronDownIcon
                 strokeWidth={2.5}
                 className={`hidden h-3 w-3 transition-transform lg:block ${
@@ -101,7 +113,7 @@ function NavListMenu() {
           </Typography>
         </MenuHandler>
         <MenuList className="hidden max-w-screen-xl hover:text-deep-purple-500  rounded-xl lg:block font-thin bg-gray-100 text-black/85 ">
-          <ul className="grid grid-cols-1 gap-y-2 outline-none outline-0   ">
+          <ul className="grid grid-cols-3 gap-y-2 outline-none outline-0   ">
             {renderItems}
           </ul>
         </MenuList>
@@ -115,11 +127,11 @@ function NavListMenu() {
 
 function NavList() {
   return (
-    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
+    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 ">
       <Typography as="a" href="#" color="blue-gray" className="font-medium">
-        <Link to={"/"}>
+        <Link to={"/derusting"}>
           <ListItem className="flex items-center gap-2 py-2 pr-4 hover:text-deep-purple-500  underline decoration-deep-purple-500  underline-offset-8 ">
-            Home
+            DERUSTING
           </ListItem>
         </Link>
       </Typography>
@@ -127,19 +139,27 @@ function NavList() {
       <NavListMenu />
       <hr className="lg:hidden" />
       <Typography as="a" href="#" color="blue-gray" className="font-medium">
-        <Link to={"/aboutUs"}>
+        <Link to={"/phosphating"}>
           <ListItem className="flex items-center hover:text-deep-purple-500  gap-2 py-2 pr-4 hover:underline decoration-deep-purple-500  underline-offset-8 ">
-            About Us
+            PHOSPHATING
           </ListItem>
           <hr className="lg:hidden" />
         </Link>
       </Typography>
       {/* <portfolio />  */}
+      <Typography as="a" href="#" color="blue-gray" className="font-medium">
+        <Link to={'/wastewaterTreatment'}>
+          <ListItem className="flex items-center hover:text-deep-purple-500  gap-2 py-2 pr-4 hover:underline decoration-deep-purple-500  underline-offset-8 ">
+            OTHERS
+          </ListItem>
+          <hr className="lg:hidden" />
+        </Link>
+      </Typography>
 
       <Typography as="a" href="#" color="blue-gray" className="font-medium">
         <Link to={"/contactUs"}>
           <ListItem className="flex items-center gap-2 hover:text-deep-purple-500  py-2 pr-4 hover:underline decoration-deep-purple-500     underline-offset-8">
-            Contact Us
+            CONTACT US
           </ListItem>
           <hr className="lg:hidden" />
         </Link>
