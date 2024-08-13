@@ -128,6 +128,7 @@ function NavListMenu() {
 function NavList() {
   return (
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 ">
+
       <Typography as="a" href="#" color="blue-gray" className="font-medium">
         <Link to={"/derusting"}>
           <ListItem className="flex items-center gap-2 py-2 pr-4 hover:text-deep-purple-500  underline decoration-deep-purple-500  underline-offset-8 ">
@@ -136,8 +137,10 @@ function NavList() {
         </Link>
       </Typography>
       <hr className="lg:hidden" />
-      <NavListMenu />
+
+      <NavListMenu />      
       <hr className="lg:hidden" />
+
       <Typography as="a" href="#" color="blue-gray" className="font-medium">
         <Link to={"/phosphating"}>
           <ListItem className="flex items-center hover:text-deep-purple-500  gap-2 py-2 pr-4 hover:underline decoration-deep-purple-500  underline-offset-8 ">
@@ -146,7 +149,7 @@ function NavList() {
           <hr className="lg:hidden" />
         </Link>
       </Typography>
-      {/* <portfolio />  */}
+      
       <Typography as="a" href="#" color="blue-gray" className="font-medium">
         <Link to={'/wastewaterTreatment'}>
           <ListItem className="flex items-center hover:text-deep-purple-500  gap-2 py-2 pr-4 hover:underline decoration-deep-purple-500  underline-offset-8 ">
@@ -163,8 +166,9 @@ function NavList() {
           </ListItem>
           <hr className="lg:hidden" />
         </Link>
-      </Typography  >    
-      <Typography as="a" href="#" color="blue-gray" className="font-medium items-center hidden md:block  ">
+      </Typography  >   
+
+      <Typography as="a" href="#" color="blue-gray" className=" items-center hidden lg:block  ">
        <div className="flex">
        <input type="text" placeholder="Enter Product / Service to search" className="py-2 px-2 bg-transparent w-96 rounded-l-md outline-none border-y-2 border-l-2 border-black " />
        <button className="px-3 py-2 bg-[#01579b] border-r-2 rounded-r-md border-y-2 border-black"><FaSearch className="text-2xl text-white " /></button>
@@ -202,7 +206,7 @@ export default function NavbarCompo() {
       className={` rounded-none max-w-full container py-2 shadow-md shadow-black/40  top-0 sticky z-20 border-none 
     ${color ? "navbarComp" : "navbarScrolled"}`}
     >
-      <div className="flex items-center justify-around gap-24 text-blue-gray-900">
+      <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"

@@ -6,10 +6,15 @@ import AboutUs from './pages/aboutUs/AboutUs';
 import ContactUs from './pages/contactUs/ContactUs';
 import NoPage from './pages/noPage/NoPage';
 import ScrollTop from './component/scrollTop/ScrollTop';
-import IndustrialChemical from './component/heropage/hero_Products/industrialChemicals/IndustrialChemical';
+
 import CoatingBooth from './component/heropage/hero_Products/coatingBooth/CoatingBooth';
 import CoatingGuns from './component/heropage/hero_Products/coatingGuns/CoatingGuns';
 import OtherChemicals from './component/heropage/hero_Products/otherChemicals/OtherChemicals';
+import IndustrialChemical from './component/heropage/hero_Products/industrialChemicals/IndustrialChemical';
+import SubDerusting from './pages/derusting/sub_Derusting/SubDerusting';
+
+
+
 
 function App() {
   return (
@@ -18,6 +23,7 @@ function App() {
       <ScrollTop/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/derusting' element={<SubDerusting/>}/>
         <Route path='/aboutUs' element={<AboutUs/>}/>
         <Route path='/contactUs' element={<ContactUs/>}/>
         <Route path='/*' element={<NoPage/>}/>
