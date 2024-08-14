@@ -12,6 +12,8 @@ import CoatingGuns from './component/heropage/hero_Products/coatingGuns/CoatingG
 import OtherChemicals from './component/heropage/hero_Products/otherChemicals/OtherChemicals';
 import IndustrialChemical from './component/heropage/hero_Products/industrialChemicals/IndustrialChemical';
 import SubDerusting from './pages/derusting/sub_Derusting/SubDerusting';
+import AluminumCleanerChemical from './component/heropage/hero_Products/industrialChemicals/aluminumCleanerChemical/AluminumCleanerChemical';
+import SevenTankPretreatmentProcessChemical from './component/heropage/hero_Products/industrialChemicals/SevenTankPretreatmentProcessChemical/SevenTank PretreatmentProcessChemical';
 
 
 
@@ -29,6 +31,9 @@ function App() {
         <Route path='/*' element={<NoPage/>}/>
          {/* subheroProducts  */}
          <Route path='/metalpretreatment' element={<IndustrialChemical/>}/>
+         {/* subpages chemicalsindustries */}
+         <Route path='/aluminumCleanerChemical' element={<AluminumCleanerChemical/>}/>
+         <Route path='/sevenTankPretreatmentProcessChemical' element={<SevenTankPretreatmentProcessChemical/>}/>
          <Route path='/wastewaterTreatment' element={<CoatingBooth/>}/>
          <Route path='/waterTreatmentBoiler' element={<CoatingGuns/>}/>
          <Route path='/paintdetackification' element={<OtherChemicals/>}/>

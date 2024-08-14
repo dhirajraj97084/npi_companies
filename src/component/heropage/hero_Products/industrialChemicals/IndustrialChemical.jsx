@@ -9,14 +9,14 @@ const blogCard = [
       img: "https://jmindustry.in/wp-content/uploads/2022/09/Best-Technology-Plating-Line-Tanks-300x300.jpg",
       tital: "7 Tank Pretreatment Process Chemical",
       p1: "7 & 9 Tank Process Chemical",
-      src: "/content",
+      src: "/sevenTankPretreatmentProcessChemical",
     //   date: "April 27, 2024  ",
     },
     {
       img: "https://jmindustry.in/wp-content/uploads/2022/09/images-3.jpg",
       tital: "Aluminum Cleaner Chemical",
       p1: "Industrial Chemical",
-      src: "/seo",
+      src: "/aluminumCleanerChemical",
     //   date: "March 30, 2024 ",
     },
     
@@ -109,18 +109,18 @@ function IndustrialChemical() {
             {blogCard.map((item, index) => (
               <div
                 key={index}
-                className="inner_box m-2 p-2 md:m-4 shadow-md hover:bg-yellow-200 rounded-xl "
+                className="inner_box m-2 p-2 md:m-4 shadow-md  bg-white hover:bg-yellow-200 rounded-xl "
               >
                 <img className='w-full rounded-3xl' src={item.img} alt="" />
                 <p className=" text-balance">{item.p1}</p>
                 {/* <h2 className="text-sm font-bold text-black/60">{item.desc}</h2> */}
-                <h1 className="text-xl font-bold text-deep-purple-400 ">
+                <h1 className="text-xl font-bold  ">
                   {item.tital}
                 </h1>
                
                 
                 <Link to={item.src}>
-                  <h1 className=" font-bold pt-3 text-deep-orange-400 decoration-deep-orange-700 underline-offset-8">
+                  <h1 className=" font-bold pt-3 text-[#01579b] decoration-deep-orange-700 underline-offset-8">
                     Read More...
                   </h1>
                 </Link>

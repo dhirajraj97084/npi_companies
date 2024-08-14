@@ -84,7 +84,7 @@ function HeroProducts() {
                                         <p>{item.desc}</p>                                      
                                     </div>
                                     <div className="button flex justify-center pt-3">
-                                        <button className='px-6 py-2 bg-deep-orange-500 hover:bg-deep-orange-700 text-white rounded-md'>{item.button}</button>
+                                        <button className='px-6 py-2 bg-[#01579b] hover:bg-deep-orange-700 text-white rounded-md'>{item.button}</button>
                                     </div>
                                    </Link>
                                 </div>

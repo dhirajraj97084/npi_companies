@@ -131,7 +131,7 @@ function NavList() {
 
       <Typography as="a" href="#" color="blue-gray" className="font-medium">
         <Link to={"/derusting"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 hover:text-deep-purple-500  underline decoration-deep-purple-500  underline-offset-8 ">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 hover:text-deep-purple-500  hover:underline decoration-deep-purple-500  underline-offset-8 ">
             DERUSTING
           </ListItem>
         </Link>
