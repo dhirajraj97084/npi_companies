@@ -14,6 +14,7 @@ import IndustrialChemical from './component/heropage/hero_Products/industrialChe
 import SubDerusting from './pages/derusting/sub_Derusting/SubDerusting';
 import AluminumCleanerChemical from './component/heropage/hero_Products/industrialChemicals/aluminumCleanerChemical/AluminumCleanerChemical';
 import SevenTankPretreatmentProcessChemical from './component/heropage/hero_Products/industrialChemicals/SevenTankPretreatmentProcessChemical/SevenTank PretreatmentProcessChemical';
+import Phosphatingpages from './pages/phsphating.pages/Phosphatingpages';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/derusting' element={<SubDerusting/>}/>
         <Route path='/aboutUs' element={<AboutUs/>}/>
         <Route path='/contactUs' element={<ContactUs/>}/>
+        <Route path='/phosphating' element={<Phosphatingpages/>}/>
         <Route path='/*' element={<NoPage/>}/>
          {/* subheroProducts  */}
          <Route path='/metalpretreatment' element={<IndustrialChemical/>}/>
