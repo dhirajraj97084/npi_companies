@@ -71,11 +71,11 @@ function HeroProducts() {
                 </div>
                 <div className="products pb-12 container mx-auto px-3  ">
                     <div className="inner_cart  ">
-                        <div className="inner_box bg grid grid-cols-1 md:grid-cols-4 gap-8 ">
+                        <div className="inner_box bg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
                             {items.map((item,index)=>(
                                 <div key={index} className="box bg-white rounded-md shadow-md p-4 hover:bg-gray-200  ">
                                    <Link to={item.src}>
-                                   <div className="img"><img className='w-96 h-96 mx-auto' src={item.img} alt="img" /></div>
+                                   <div className="img"><img className=' mx-auto' src={item.img} alt="img" /></div>
                                     <div className="box flex justify-between ">
                                     <div className="name py-3 text-xl font-semibold te"><h1>{item.name}</h1></div> 
                                     <div className="price py-3 text-xl font-semibold te"><h2>{item.price}</h2></div>                               
