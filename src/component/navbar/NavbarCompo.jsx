@@ -168,12 +168,12 @@ function NavList() {
         </Link>
       </Typography  >   
 
-      <Typography as="a" href="#" color="blue-gray" className=" items-center hidden lg:block  ">
+      {/* <Typography as="a" href="#" color="blue-gray" className=" items-center hidden lg:block  ">
        <div className="flex">
        <input type="text" placeholder="Enter Product / Service to search" className="py-2 px-2 bg-transparent w-96 rounded-l-md outline-none border-y-2 border-l-2 border-black " />
        <button className="px-3 py-2 bg-[#01579b] border-r-2 rounded-r-md border-y-2 border-black"><FaSearch className="text-2xl text-white " /></button>
        </div>
-      </Typography>  
+      </Typography>   */}
       
     </List>
   );

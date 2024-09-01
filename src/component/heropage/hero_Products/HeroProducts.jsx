@@ -71,7 +71,7 @@ function HeroProducts() {
                 </div>
                 <div className="products pb-12 container mx-auto px-3  ">
                     <div className="inner_cart  ">
-                        <div className="inner_box bg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
+                        <div className="inner_box bg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 ">
                             {items.map((item,index)=>(
                                 <div key={index} className="box bg-white rounded-md shadow-md p-4 hover:bg-gray-200  ">
                                    <Link to={item.src}>
