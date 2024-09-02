@@ -24,6 +24,14 @@ import SevenZero from './pages/degcheme/sevenZero/SevenZero';
 import EightZero from './pages/degcheme/eightZero/EightZero';
 import NineZero from './pages/degcheme/nineZero/NineZero';
 import NineZeroSeven from './pages/degcheme/nineZeroSeven/NineZeroSeven';
+import Phoscheme503 from './pages/phsphating.pages/inner_phosphating_page/Phoscheme503';
+import Phoscheme109 from './pages/phsphating.pages/inner_phosphating_page/Phoscheme109';
+import Phoscheme501 from './pages/phsphating.pages/inner_phosphating_page/Phoscheme501';
+import Phoscheme507 from './pages/phsphating.pages/inner_phosphating_page/Phoscheme507';
+import Phoscheme_pc from './pages/phsphating.pages/inner_phosphating_page/Phoscheme_pc';
+import Phoscheme301 from './pages/phsphating.pages/inner_phosphating_page/Phoscheme301';
+import Phoscheme505 from './pages/phsphating.pages/inner_phosphating_page/Phoscheme505';
+import PhoschemeM901 from './pages/phsphating.pages/inner_phosphating_page/PhoschemeM901';
 
 
 
@@ -31,39 +39,55 @@ import NineZeroSeven from './pages/degcheme/nineZeroSeven/NineZeroSeven';
 function App() {
   return (
     <div>
-     <Router>
-      <ScrollTop/>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/derusting' element={<SubDerusting/>}/>
-        <Route path='/aboutUs' element={<AboutUs/>}/>
-        <Route path='/contactUs' element={<ContactUs/>}/>
-        <Route path='/phosphating' element={<Phosphatingpages/>}/>
-        <Route path='/*' element={<NoPage/>}/>
-         {/* subheroProducts  */}
-         <Route path='/metalpretreatment' element={<IndustrialChemical/>}/>
-         {/* subpages chemicalsindustries */}
-         <Route path='/aluminumCleanerChemical' element={<AluminumCleanerChemical/>}/>
-         <Route path='/sevenTankPretreatmentProcessChemical' element={<SevenTankPretreatmentProcessChemical/>}/>
-         <Route path='/wastewaterTreatment' element={<CoatingBooth/>}/>
-         <Route path='/waterTreatmentBoiler' element={<CoatingGuns/>}/>
-         <Route path='/paintdetackification' element={<OtherChemicals/>}/>
+      <Router>
+        <ScrollTop />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/derusting' element={<SubDerusting />} />
+          <Route path='/aboutUs' element={<AboutUs />} />
+          <Route path='/contactUs' element={<ContactUs />} />
+          <Route path='/phosphating' element={<Phosphatingpages />} />
+          <Route path='/*' element={<NoPage />} />
+          {/* subheroProducts  */}
+          <Route path='/metalpretreatment' element={<IndustrialChemical />} />
+          {/* subpages chemicalsindustries */}
+          <Route path='/aluminumCleanerChemical' element={<AluminumCleanerChemical />} />
+          <Route path='/sevenTankPretreatmentProcessChemical' element={<SevenTankPretreatmentProcessChemical />} />
+          <Route path='/wastewaterTreatment' element={<CoatingBooth />} />
+          <Route path='/waterTreatmentBoiler' element={<CoatingGuns />} />
+          <Route path='/paintdetackification' element={<OtherChemicals />} />
           {/* degcheme */}
-          <Route path='/degcheme101' element={<Degcheme101/>}/>
-          <Route path='/degcheme105' element={<OneZeroFive/>}/>
-          <Route path='/degcheme109' element={<OneZeroNine/>}/>
-          <Route path='/degcheme203' element={<TwoZeroThree/>}/>
+          <Route path='/degcheme101' element={<Degcheme101 />} />
+          <Route path='/degcheme105' element={<OneZeroFive />} />
+          <Route path='/degcheme109' element={<OneZeroNine />} />
+          <Route path='/degcheme203' element={<TwoZeroThree />} />
 
-          <Route path='/degcheme60' element={<SixZero/>}/>
-          <Route path='/degcheme70' element={<SevenZero/>}/>
+          <Route path='/degcheme60' element={<SixZero />} />
+          <Route path='/degcheme70' element={<SevenZero />} />
 
-          <Route path='/degcheme80' element={<EightZero/>}/>
-          <Route path='/degcheme90' element={<NineZero/>}/>
-          <Route path='/degcheme907' element={<NineZeroSeven/>}/>
+          <Route path='/degcheme80' element={<EightZero />} />
+          <Route path='/degcheme90' element={<NineZero />} />
+          <Route path='/degcheme907' element={<NineZeroSeven />} />
           {/* end */}
 
-      </Routes>
-     </Router>
+          {/* phoscheme_pages */}
+          <Route path='/phoscheme503' element={<Phoscheme503 />} />
+          <Route path='//phoscheme109' element={<Phoscheme109 />} />
+
+          <Route path='/phoscheme501' element={<Phoscheme501 />} />
+          <Route path='/phoscheme507' element={<Phoscheme507 />} />
+
+          <Route path='/phoschemepc' element={<Phoscheme_pc />} />
+          <Route path='/phoscheme301' element={<Phoscheme301 />} />
+
+          <Route path='/phoscheme507' element={<Phoscheme507 />} />
+
+          <Route path='/phoscheme505' element={<Phoscheme505 />} />
+          <Route path='/phoschemeM901' element={<PhoschemeM901 />} />
+
+
+        </Routes>
+      </Router>
     </div>
   )
 }
