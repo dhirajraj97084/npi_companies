@@ -214,7 +214,7 @@ export default function NavbarCompo() {
         >
           <Link to={"/"}>
             <div className="logo flex items-center">
-              <img className="h-14 " src="images/LOGO.jpeg" alt="" />
+              <img className="h-14 " src="images/logo_cm.jpg" alt="" />
             </div>
           </Link>
         </Typography>

@@ -24,7 +24,7 @@ const blogCard = [
       img: "https://jmindustry.in/wp-content/uploads/2022/09/download-5.jpg",
       tital: "Cold Phosphating Chemicals",
       p1: "Industrial Chemical",
-      src: "/influencer",
+      src: "/coldphosphating",
       date: "March 16, 2024 ",
     },
     {

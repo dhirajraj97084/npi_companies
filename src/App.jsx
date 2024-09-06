@@ -32,6 +32,14 @@ import Phoscheme_pc from './pages/phsphating.pages/inner_phosphating_page/Phosch
 import Phoscheme301 from './pages/phsphating.pages/inner_phosphating_page/Phoscheme301';
 import Phoscheme505 from './pages/phsphating.pages/inner_phosphating_page/Phoscheme505';
 import PhoschemeM901 from './pages/phsphating.pages/inner_phosphating_page/PhoschemeM901';
+import ColdPhosphating from './component/heropage/hero_Products/industrialChemicals/ColdPhosphating';
+import Degcheme105 from './component/heropage/hero_Products/industrialChemicals/Degcheme105';
+import Degcheme109 from './component/heropage/hero_Products/industrialChemicals/Degcheme109';
+import Degcheme203 from './component/heropage/hero_Products/industrialChemicals/Degcheme203';
+import Degcheme907 from './component/heropage/hero_Products/industrialChemicals/Degcheme907';
+import Degcheme60 from './component/heropage/hero_Products/industrialChemicals/Degcheme60';
+import Degcheme70 from './component/heropage/hero_Products/industrialChemicals/Degcheme70';
+import Degcheme80 from './component/heropage/hero_Products/industrialChemicals/Degcheme80';
 
 
 
@@ -53,6 +61,20 @@ function App() {
           {/* subpages chemicalsindustries */}
           <Route path='/aluminumCleanerChemical' element={<AluminumCleanerChemical />} />
           <Route path='/sevenTankPretreatmentProcessChemical' element={<SevenTankPretreatmentProcessChemical />} />
+          <Route path='/coldphosphating' element={<ColdPhosphating />} />
+          <Route path='/digitalmarketing' element={<Degcheme101 />} />
+
+                    
+            <Route path='/google' element={<Degcheme105 />} />
+            <Route path='/onlineadvertising' element={<Degcheme109 />} />
+            <Route path='/graphicdesigning' element={<Degcheme203 />} />
+            <Route path='/instagram' element={<Degcheme907 />} />
+            <Route path='/ecommercewebsite' element={<Degcheme60 />} />
+            <Route path='/sevendigital' element={<Degcheme70 />} />
+            <Route path='/threestrategies' element={<Degcheme80 />} />
+
+
+
           <Route path='/wastewaterTreatment' element={<CoatingBooth />} />
           <Route path='/waterTreatmentBoiler' element={<CoatingGuns />} />
           <Route path='/paintdetackification' element={<OtherChemicals />} />
