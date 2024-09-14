@@ -97,7 +97,7 @@ function OtherChemicals() {
     <Layout>
        <div className="div  w-full ">
         <img
-          className="w-full md:h-[35em]  h-[20em]"
+          className="w-full md:h-[35em]  h-[20em] opacity-75"
           src="https://img.freepik.com/premium-photo/crashed-artificial-ice-rustic-metal-sheet_773922-56428.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid"
           alt=""
         />

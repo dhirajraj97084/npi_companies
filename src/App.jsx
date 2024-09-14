@@ -40,6 +40,10 @@ import Degcheme907 from './component/heropage/hero_Products/industrialChemicals/
 import Degcheme60 from './component/heropage/hero_Products/industrialChemicals/Degcheme60';
 import Degcheme70 from './component/heropage/hero_Products/industrialChemicals/Degcheme70';
 import Degcheme80 from './component/heropage/hero_Products/industrialChemicals/Degcheme80';
+import Ss from './component/heropage/hero_Products/industrialChemicals/SevenTankPretreatmentProcessChemical/innerPart/ss/Ss';
+import Oil from './component/heropage/hero_Products/industrialChemicals/SevenTankPretreatmentProcessChemical/innerPart/oil/Oil';
+import Paint from './component/heropage/hero_Products/industrialChemicals/SevenTankPretreatmentProcessChemical/innerPart/paint/Paint';
+import Metal from './component/heropage/hero_Products/industrialChemicals/SevenTankPretreatmentProcessChemical/innerPart/metal/Metal';
 
 
 
@@ -63,6 +67,11 @@ function App() {
           <Route path='/sevenTankPretreatmentProcessChemical' element={<SevenTankPretreatmentProcessChemical />} />
           <Route path='/coldphosphating' element={<ColdPhosphating />} />
           <Route path='/digitalmarketing' element={<Degcheme101 />} />
+
+          <Route path='/ss' element={<Ss />} />
+          <Route path='/oil' element={<Oil />} />
+          <Route path='/paint' element={<Paint />} />
+          <Route path='/metal' element={<Metal />} />
 
                     
             <Route path='/google' element={<Degcheme105 />} />

@@ -8,14 +8,14 @@ const blogCard = [
       img: "https://jmindustry.in/wp-content/uploads/2022/09/download-7.jpg",
       tital: "Ss Passivation Chemical",
       p1: "Industrial Chemical",
-      src: "/content",
+      src: "/ss",
     //   date: "April 27, 2024  ",
     },
     {
       img: "https://jmindustry.in/wp-content/uploads/2022/09/images-5.jpg",
       tital: "Paint Stripper Chemical",
       p1: "Industrial Chemical",
-      src: "/x",
+      src: "/paint",
     //   date: "March 30, 2024 ",
     },
     
@@ -23,14 +23,14 @@ const blogCard = [
       img: "https://jmindustry.in/wp-content/uploads/2022/09/download-3.jpg",
       tital: "Oil Remover Chemical",
       p1: "Industrial Chemical",
-      src: "/in",
+      src: "/oil",
      
     },
     {
       img: "https://jmindustry.in/wp-content/uploads/2022/09/Paint-Chemicals-300x300.jpg",
       tital: "Metal Pretreatment Chemical",
       p1: "Industrial Chemical",
-      src: "/dig",
+      src: "/metal",
     //   date: "March 24, 2024",
     },
 ]

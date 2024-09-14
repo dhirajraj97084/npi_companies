@@ -97,7 +97,7 @@ function IndustrialChemical() {
     <Layout>
        <div className="div  w-full ">
         <img
-          className="w-full md:h-[35em]  h-[20em]"
+          className="w-full md:h-[35em]  h-[20em] opacity-70"
           src="https://www.vanchem.com/wp-content/uploads/2017/07/test-tubes.png"
           alt=""
         />
