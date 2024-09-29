@@ -203,7 +203,7 @@ export default function NavbarCompo() {
 
   return (
     <Navbar
-      className={` rounded-none max-w-full container py-2 shadow-md shadow-black/40  top-0 sticky z-20 border-none 
+      className={` rounded-none max-w-full container py-2 shadow-md shadow-black/40 top-0 sticky z-20 border-none 
     ${color ? "navbarComp" : "navbarScrolled"}`}
     >
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
