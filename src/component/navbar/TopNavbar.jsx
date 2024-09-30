@@ -9,7 +9,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 function TopNavbar() {
   return (
-    <div className='bg-[#01579b]'>
+    <div data-aos="fade-in" data-aos-duration="2000" className='bg-[#01579b]'>
       <div className="main text-xl text-white md:py-4 py-2 container mx-auto md:flex justify-between">
       <div className="mobile flex gap-5 items-center justify-center cursor-pointer">
       <a href="tel:9811198755" className="flex gap-2 items-center">

@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from "aos";
+import "aos/dist/aos.css" 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/home/Home';
@@ -48,7 +50,12 @@ import Metal from './component/heropage/hero_Products/industrialChemicals/SevenT
 
 
 
-function App() {
+function App() {  
+
+    useEffect(()=>{
+      Aos.init();    
+    })
+
   return (
     <div>
       <Router>

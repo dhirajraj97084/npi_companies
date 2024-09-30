@@ -3,7 +3,7 @@ import React from 'react'
 function OurService() {
   return (
     <div>
-      <div className="box container mx-auto ">
+      <div data-aos="zoom-in" data-aos-duration="2000" className="box container mx-auto ">
         <div className="img  ">
             <img className='w-full  md:h-full' src="https://5.imimg.com/data5/SELLER/Default/2024/2/391354757/GE/JF/QP/4702779/pretreatment-chemicals-for-powder-coating-1000x1000.jpg" alt="" />
         </div>

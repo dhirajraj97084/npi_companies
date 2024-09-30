@@ -3,7 +3,7 @@ import { Carousel } from "@material-tailwind/react";
 
 export default function AutoScrollImage() {
   return (
-    <div className="">
+    <div data-aos="zoom-in" data-aos-duration="2000" className="">
       <Carousel
         loop={true}
         autoplay={true}
